@@ -141,3 +141,47 @@ header {
     padding: 15px;
   }
 }
+/* Desktop Screens (1025px and above) */
+@media (min-width: 1025px) {
+  .tagline {
+    font-size: 48px; /* Increased from default */
+  }
+  .text-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para {
+    font-size: 18px; /* Increased from 16px */
+    line-height: 1.6;
+  }
+
+  .para2 {
+    font-size: 18px; /* Increased from 16px */
+    line-height: 1.6;
+  }
+
+  .Launch-brand {
+    font-size: 28px; /* "Why Chai Culture ?" heading */
+  }
+
+  .email-input {
+    font-size: 16px;
+    padding: 14px 16px;
+  }
+
+  .signup-btn {
+    font-size: 16px;
+    padding: 14px 35px;
+  }
+
+  .social-icons {
+    gap: 25px;
+  }
+
+  .social-link {
+    width: 55px;
+    height: 55px;
+  }
+}
