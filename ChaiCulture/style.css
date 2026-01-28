@@ -1,0 +1,143 @@
+body {
+  background-color: B5A192;
+}
+.text-logo {
+  font-family: serif;
+  color: #da9100;
+}
+.tagline {
+  font-weight: lighter;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #85754e;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  position: relative;
+}
+
+.para {
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6a4325;
+  text-align: center;
+}
+.launch-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c9a14a;
+  border-color: #c9a14a;
+  font-weight: lighter;
+  font-family: serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-signup {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.email-input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #8b6f47;
+  border-radius: 5px;
+  width: 250px;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.email-input::placeholder {
+  color: #999;
+}
+
+.signup-btn {
+  padding: 12px 30px;
+  background-color: #8b6f47;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #6f5939;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #da9100;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: #6f5939;
+  transform: scale(1.1);
+}
+
+/* For mobile devices*/
+
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 24px;
+    padding: 15px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+  .para {
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+  }
+  .signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px 20px;
+  }
+  .social-icons {
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .launch-brand {
+    padding: 15px;
+  }
+}
